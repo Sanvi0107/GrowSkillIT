@@ -8,11 +8,80 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">123,763</td><td></td><td></td></tr>
+<tr><th colspan="8">CrossBrowser</th></tr>
+<tr><td><a href="#t0">ChromeTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">80,716</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">FirefoxTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">5,731</td><td></td><td></td></tr>
+<tr><td><a href="#t2">EdgeTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">300,528</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">ieTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">4,757</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num attn">6</th><th class="num">391,732</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">day10_22042025.HybridFramework</td><td><a href="#m0">executeMethod</a></td><td rowspan="1">1746182044024</td><td rowspan="1">123687</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">CrossBrowser</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ChromeTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">day6_15042025.CrossbrowserTestDemo</td><td><a href="#m0">app</a></td><td rowspan="1">1746498168256</td><td rowspan="1">16</td></tr><tr><th colspan="4">ChromeTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">day6_15042025.CrossbrowserTestDemo</td><td><a href="#m1">launchBrowser</a></td><td rowspan="1">1746498168328</td><td rowspan="1">80572</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">FirefoxTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">day6_15042025.CrossbrowserTestDemo</td><td><a href="#m2">app</a></td><td rowspan="1">1746498249104</td><td rowspan="1">2</td></tr><tr><th colspan="4">FirefoxTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">day6_15042025.CrossbrowserTestDemo</td><td><a href="#m3">launchBrowser</a></td><td rowspan="1">1746498249114</td><td rowspan="1">5709</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">EdgeTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">day6_15042025.CrossbrowserTestDemo</td><td><a href="#m4">app</a></td><td rowspan="1">1746498254852</td><td rowspan="1">5</td></tr><tr class="failedeven"><td><a href="#m5">launchBrowser</a></td><td rowspan="1">1746498254885</td><td rowspan="1">300488</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">ieTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">day6_15042025.CrossbrowserTestDemo</td><td><a href="#m6">app</a></td><td rowspan="1">1746498555400</td><td rowspan="1">1</td></tr><tr class="failedeven"><td><a href="#m7">launchBrowser</a></td><td rowspan="1">1746498555410</td><td rowspan="1">4740</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">day10_22042025.HybridFramework#executeMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ChromeTest</h2><h3 id="m0">day6_15042025.CrossbrowserTestDemo#app</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
+	at day6_15042025.CrossbrowserTestDemo.app(CrossbrowserTestDemo.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">day6_15042025.CrossbrowserTestDemo#launchBrowser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Chrome</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>FirefoxTest</h2><h3 id="m2">day6_15042025.CrossbrowserTestDemo#app</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
+	at day6_15042025.CrossbrowserTestDemo.app(CrossbrowserTestDemo.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">day6_15042025.CrossbrowserTestDemo#launchBrowser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Firefox</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>EdgeTest</h2><h3 id="m4">day6_15042025.CrossbrowserTestDemo#app</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
+	at day6_15042025.CrossbrowserTestDemo.app(CrossbrowserTestDemo.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">day6_15042025.CrossbrowserTestDemo#launchBrowser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Edge</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
+error decoding response body
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: driver.version: EdgeDriver
+	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
+	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at day6_15042025.CrossbrowserTestDemo.launchBrowser(CrossbrowserTestDemo.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
+error decoding response body
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: driver.version: EdgeDriver
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:173)
+	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:254)
+	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
+	... 33 more
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ieTest</h2><h3 id="m6">day6_15042025.CrossbrowserTestDemo#app</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
+	at day6_15042025.CrossbrowserTestDemo.app(CrossbrowserTestDemo.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">day6_15042025.CrossbrowserTestDemo#launchBrowser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>ie</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100% 
+Host info: host: &apos;DESKTOP-6MEMO6P&apos;, ip: &apos;192.168.49.1&apos;
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: internet explorer, se:ieOptions: {}}]}]
+Capabilities {}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:146)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:132)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:88)
+	at day6_15042025.CrossbrowserTestDemo.launchBrowser(CrossbrowserTestDemo.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

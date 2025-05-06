@@ -6,7 +6,7 @@
     <classes>
       <class name="day6_15042025.CrossbrowserTestDemo">
         <methods>
-          <include name="launchBrowser"/>
+          <include name="app"/>
         </methods>
       </class> <!-- day6_15042025.CrossbrowserTestDemo -->
     </classes>
@@ -16,7 +16,7 @@
     <classes>
       <class name="day6_15042025.CrossbrowserTestDemo">
         <methods>
-          <include name="launchBrowser"/>
+          <include name="app"/>
         </methods>
       </class> <!-- day6_15042025.CrossbrowserTestDemo -->
     </classes>
@@ -26,7 +26,8 @@
     <classes>
       <class name="day6_15042025.CrossbrowserTestDemo">
         <methods>
-          <include name="launchBrowser"/>
+          <include name="launchBrowser" invocation-numbers="0"/>
+          <include name="app"/>
         </methods>
       </class> <!-- day6_15042025.CrossbrowserTestDemo -->
     </classes>
@@ -36,7 +37,8 @@
     <classes>
       <class name="day6_15042025.CrossbrowserTestDemo">
         <methods>
-          <include name="launchBrowser"/>
+          <include name="launchBrowser" invocation-numbers="0"/>
+          <include name="app"/>
         </methods>
       </class> <!-- day6_15042025.CrossbrowserTestDemo -->
     </classes>
